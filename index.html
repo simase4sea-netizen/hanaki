@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<title>花木流味噌 | 加盟金0円・ロイヤリティー0円パッケージ 募集開始</title>
+<meta name="description" content="花木流味噌が提供する、加盟金0円・ロイヤリティー0円の独立開業パッケージ。屋号自由、自立した経営をサポート。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --c-paper:#F4ECDB;
+    --c-paper-2:#EAE0CB;
+    --c-cream:#FAF5E9;
+    --c-ink:#1A140F;
+    --c-ink-2:#3A2D22;
+    --c-miso:#8C2718;
+    --c-miso-deep:#651406;
+    --c-miso-glow:#B33824;
+    --c-gold:#B08838;
+    --c-gold-soft:#C9A961;
+    --c-rule:rgba(26,20,15,.15);
+    --ff-mincho:"Shippori Mincho B1", "Yu Mincho","游明朝", serif;
+    --ff-sans:"Noto Sans JP", system-ui, sans-serif;
+    --ff-display:"Cormorant Garamond", "Shippori Mincho B1", serif;
+    --maxw:1180px;
+    --pad:clamp(20px,5vw,40px);
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{
+    font-family:var(--ff-sans);
+    font-weight:400;
+    color:var(--c-ink);
+    background:var(--c-paper);
+    line-height:1.85;
+    letter-spacing:.04em;
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  img{max-width:100%;display:block;height:auto}
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+
+  /* Paper texture */
+  body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:1;
+    background-image:
+      radial-gradient(rgba(140,39,24,.025) 1px, transparent 1px),
+      radial-gradient(rgba(26,20,15,.02) 1px, transparent 1px);
+    background-size:3px 3px, 7px 7px;
+    background-position:0 0, 1px 2px;
+    mix-blend-mode:multiply;
+  }
+
+  /* ============ Top Banner ============ */
+  .top-banner{
+    position:relative;z-index:50;
+    background:var(--c-ink);
+    color:var(--c-cream);
+    text-align:center;
+    padding:8px 16px;
+    font-size:11px;
+    letter-spacing:.25em;
+    font-weight:500;
+  }
+  .top-banner .pulse{
+    display:inline-block;width:6px;height:6px;border-radius:50%;
+    background:var(--c-miso-glow);margin-right:8px;
+    animation:pulse 2s infinite;vertical-align:middle;
+  }
+  @keyframes pulse{
+    0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(179,56,36,.6)}
+    50%{opacity:.6;box-shadow:0 0 0 8px rgba(179,56,36,0)}
+  }
+
+  /* ============ Header ============ */
+  header{
+    position:sticky;top:0;z-index:40;
+    background:rgba(244,236,219,.85);
+    backdrop-filter:blur(20px) saturate(150%);
+    -webkit-backdrop-filter:blur(20px) saturate(150%);
+    border-bottom:1px solid var(--c-rule);
+  }
+  .nav{
+    max-width:var(--maxw);margin:0 auto;
+    padding:14px var(--pad);
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+  }
+  .logo{
+    font-family:var(--ff-mincho);
+    font-weight:700;
+    font-size:clamp(15px,4vw,18px);
+    letter-spacing:.15em;
+    color:var(--c-ink);
+    line-height:1;
+  }
+  .logo .sub{
+    display:block;font-family:var(--ff-display);
+    font-style:italic;font-weight:400;
+    font-size:10px;letter-spacing:.3em;
+    color:var(--c-miso);margin-top:4px;
+  }
+  .nav-cta{
+    display:inline-flex;align-items:center;gap:6px;
+    background:var(--c-miso);color:var(--c-cream);
+    padding:9px 16px;border-radius:999px;
+    font-size:11px;letter-spacing:.2em;font-weight:600;
+    transition:all .3s ease;
+  }
+  .nav-cta:hover{background:var(--c-miso-deep);transform:translateY(-1px)}
+
+  /* ============ Hero ============ */
+  .hero{
+    position:relative;
+    padding:32px var(--pad) 60px;
+    overflow:hidden;
+  }
+  .hero-vertical{
+    position:absolute;top:32px;left:14px;
+    writing-mode:vertical-rl;
+    font-family:var(--ff-mincho);
+    font-size:11px;letter-spacing:.4em;
+    color:var(--c-miso);opacity:.7;
+    pointer-events:none;
+  }
+  .hero-en{
+    position:absolute;bottom:28px;right:18px;
+    font-family:var(--ff-display);font-style:italic;
+    font-size:11px;letter-spacing:.35em;
+    color:var(--c-ink-2);opacity:.5;
+    transform:rotate(-90deg);transform-origin:right bottom;
+    pointer-events:none;
+  }
+  .hero-inner{
+    max-width:var(--maxw);margin:0 auto;
+    position:relative;
+  }
+  .hero-eyebrow{
+    display:inline-flex;align-items:center;gap:10px;
+    font-family:var(--ff-display);
+    font-size:13px;letter-spacing:.35em;
+    color:var(--c-miso);
+    margin-bottom:18px;
+    font-style:italic;
+  }
+  .hero-eyebrow::before,.hero-eyebrow::after{
+    content:"";width:24px;height:1px;background:var(--c-miso);
+  }
+  .hero-headline{
+    font-family:var(--ff-mincho);
+    font-weight:700;
+    font-size:clamp(34px,9.5vw,72px);
+    line-height:1.18;
+    letter-spacing:.02em;
+    color:var(--c-ink);
+    margin-bottom:20px;
+  }
+  .hero-headline .accent{color:var(--c-miso);position:relative;display:inline-block}
+  .hero-headline .accent::after{
+    content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;
+    background:var(--c-gold);
+    transform:scaleX(0);transform-origin:left;
+    animation:line-in 1.2s .6s forwards cubic-bezier(.65,0,.35,1);
+  }
+  @keyframes line-in{to{transform:scaleX(1)}}
+  .hero-zero{
+    font-family:var(--ff-display);
+    font-weight:300;font-style:italic;
+    font-size:clamp(56px,18vw,140px);
+    line-height:.9;color:var(--c-miso);
+    margin:6px 0;letter-spacing:-.02em;
+  }
+  .hero-sub{
+    font-size:clamp(13px,3.6vw,16px);
+    color:var(--c-ink-2);
+    line-height:1.9;
+    max-width:540px;
+    margin-bottom:32px;
+    letter-spacing:.06em;
+  }
+  .hero-image{
+    position:relative;
+    margin:36px -20px 0;
+    aspect-ratio:4/5;
+    overflow:hidden;
+  }
+  @media(min-width:640px){
+    .hero-image{margin:36px 0 0;aspect-ratio:16/10;border-radius:2px}
+  }
+  .hero-image img{
+    width:100%;height:100%;object-fit:cover;
+    filter:saturate(1.05) contrast(1.02);
+  }
+  .hero-image::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 60%,rgba(26,20,15,.45));
+    pointer-events:none;
+  }
+  .hero-tag{
+    position:absolute;left:20px;bottom:20px;
+    color:var(--c-cream);
+    font-family:var(--ff-mincho);
+    font-size:13px;letter-spacing:.25em;
+    z-index:2;
+  }
+  .hero-tag .stamp{
+    display:inline-block;
+    border:1px solid var(--c-cream);
+    padding:5px 10px;
+    margin-right:8px;
+    font-family:var(--ff-display);font-style:italic;
+    font-size:10px;letter-spacing:.3em;
+  }
+
+  /* ============ Primary CTA Button ============ */
+  .btn-primary{
+    position:relative;display:inline-flex;align-items:center;justify-content:center;
+    gap:14px;
+    width:100%;max-width:380px;
+    padding:20px 28px;
+    background:var(--c-ink);
+    color:var(--c-cream);
+    font-family:var(--ff-sans);
+    font-size:14px;font-weight:600;
+    letter-spacing:.25em;
+    border-radius:2px;
+    transition:all .4s cubic-bezier(.4,0,.2,1);
+    overflow:hidden;
+    text-align:center;
+  }
+  .btn-primary::before{
+    content:"";position:absolute;inset:0;
+    background:var(--c-miso);
+    transform:translateX(-101%);
+    transition:transform .5s cubic-bezier(.65,0,.35,1);
+  }
+  .btn-primary > *{position:relative;z-index:1}
+  .btn-primary:hover::before{transform:translateX(0)}
+  .btn-primary .arrow{
+    display:inline-block;transition:transform .4s ease;
+    font-family:var(--ff-display);font-size:18px;
+  }
+  .btn-primary:hover .arrow{transform:translateX(6px)}
+
+  .btn-outline{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    padding:14px 24px;
+    border:1px solid var(--c-ink);color:var(--c-ink);
+    font-size:12px;letter-spacing:.25em;font-weight:500;
+    transition:all .3s ease;
+  }
+  .btn-outline:hover{background:var(--c-ink);color:var(--c-cream)}
+
+  /* ============ Stats Strip ============ */
+  .stats{
+    background:var(--c-ink);
+    color:var(--c-cream);
+    padding:36px var(--pad);
+    position:relative;z-index:2;
+  }
+  .stats-inner{
+    max-width:var(--maxw);margin:0 auto;
+    display:grid;grid-template-columns:repeat(3,1fr);gap:8px;
+    text-align:center;
+  }
+  .stat{position:relative;padding:8px 4px}
+  .stat:not(:last-child)::after{
+    content:"";position:absolute;right:-4px;top:20%;bottom:20%;
+    width:1px;background:rgba(244,236,219,.2);
+  }
+  .stat-num{
+    font-family:var(--ff-display);
+    font-weight:300;font-style:italic;
+    font-size:clamp(36px,11vw,68px);
+    line-height:1;color:var(--c-gold-soft);
+    letter-spacing:-.02em;
+  }
+  .stat-num .yen{font-size:.5em;margin-left:2px}
+  .stat-label{
+    font-family:var(--ff-mincho);
+    font-size:clamp(10px,3vw,13px);
+    letter-spacing:.2em;
+    margin-top:8px;
+    color:var(--c-cream);
+  }
+  .stat-en{
+    font-family:var(--ff-display);font-style:italic;
+    font-size:9px;letter-spacing:.3em;
+    color:var(--c-gold-soft);opacity:.7;
+    margin-top:4px;
+  }
+
+  /* ============ Section Common ============ */
+  section{position:relative}
+  .section{
+    padding:80px var(--pad);
+    max-width:var(--maxw);
+    margin:0 auto;
+    position:relative;
+  }
+  .section-label{
+    font-family:var(--ff-display);font-style:italic;
+    font-size:12px;letter-spacing:.4em;
+    color:var(--c-miso);
+    margin-bottom:14px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .section-label .num{
+    font-family:var(--ff-display);
+    font-style:normal;font-weight:500;
+    color:var(--c-ink);font-size:13px;
+    border:1px solid var(--c-ink);
+    width:24px;height:24px;border-radius:50%;
+    display:inline-flex;align-items:center;justify-content:center;
+    letter-spacing:0;
+  }
+  .section-title{
+    font-family:var(--ff-mincho);
+    font-weight:700;
+    font-size:clamp(26px,6.5vw,42px);
+    line-height:1.4;
+    letter-spacing:.05em;
+    color:var(--c-ink);
+    margin-bottom:36px;
+  }
+  .section-title .mark{
+    background:linear-gradient(transparent 70%, rgba(176,136,56,.35) 70%);
+    padding:0 4px;
+  }
+
+  /* ============ Concept Section ============ */
+  .concept{
+    background:var(--c-cream);
+    position:relative;
+  }
+  .concept::before{
+    content:"";position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent, var(--c-rule), transparent);
+  }
+  .concept-text{
+    font-family:var(--ff-mincho);
+    font-size:clamp(15px,4.2vw,18px);
+    line-height:2.1;
+    color:var(--c-ink-2);
+    letter-spacing:.08em;
+    max-width:760px;
+  }
+  .concept-text strong{
+    color:var(--c-miso);
+    font-weight:700;
+  }
+
+  /* ============ Benefits Cards ============ */
+  .benefits{
+    background:var(--c-paper-2);
+    padding:80px var(--pad) 90px;
+  }
+  .benefits-inner{max-width:var(--maxw);margin:0 auto}
+  .benefits-grid{
+    display:grid;grid-template-columns:1fr;gap:18px;
+    margin-top:36px;
+  }
+  @media(min-width:720px){
+    .benefits-grid{grid-template-columns:repeat(3,1fr);gap:20px}
+  }
+  .benefit-card{
+    background:var(--c-cream);
+    padding:36px 28px;
+    border:1px solid var(--c-rule);
+    position:relative;
+    transition:transform .5s ease, box-shadow .5s ease;
+  }
+  .benefit-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 24px 48px -24px rgba(26,20,15,.25);
+  }
+  .benefit-card::before{
+    content:"";position:absolute;top:0;left:0;width:36px;height:1px;
+    background:var(--c-miso);
+  }
+  .benefit-num{
+    font-family:var(--ff-display);font-style:italic;font-weight:300;
+    font-size:14px;letter-spacing:.3em;
+    color:var(--c-miso);margin-bottom:14px;
+  }
+  .benefit-headline{
+    font-family:var(--ff-mincho);font-weight:700;
+    font-size:clamp(20px,5vw,24px);
+    color:var(--c-ink);margin-bottom:12px;
+    line-height:1.5;
+  }
+  .benefit-headline .big{
+    font-family:var(--ff-display);font-style:italic;font-weight:400;
+    color:var(--c-miso);font-size:1.6em;line-height:.8;
+    display:block;margin-bottom:4px;
+  }
+  .benefit-desc{
+    font-size:13px;line-height:1.85;
+    color:var(--c-ink-2);letter-spacing:.05em;
+  }
+
+  /* ============ Comparison Section ============ */
+  .compare{
+    background:var(--c-cream);
+    padding:80px var(--pad);
+  }
+  .compare-inner{max-width:var(--maxw);margin:0 auto}
+  .compare-grid{
+    display:grid;grid-template-columns:1fr;gap:14px;margin-top:32px;
+  }
+  @media(min-width:720px){
+    .compare-grid{grid-template-columns:1fr 1fr;gap:24px}
+  }
+  .compare-card{
+    padding:32px 24px;
+    position:relative;
+    border:1px solid var(--c-rule);
+  }
+  .compare-card.fc{
+    background:var(--c-paper-2);
+    color:var(--c-ink-2);
+  }
+  .compare-card.ours{
+    background:var(--c-ink);
+    color:var(--c-cream);
+    border-color:var(--c-ink);
+  }
+  .compare-card.ours::before{
+    content:"RECOMMENDED";
+    position:absolute;top:-10px;right:14px;
+    background:var(--c-miso);color:var(--c-cream);
+    font-family:var(--ff-display);font-style:italic;
+    font-size:10px;letter-spacing:.3em;
+    padding:4px 12px;
+  }
+  .compare-label{
+    font-family:var(--ff-display);font-style:italic;
+    font-size:12px;letter-spacing:.3em;
+    margin-bottom:8px;opacity:.7;
+  }
+  .compare-name{
+    font-family:var(--ff-mincho);font-weight:700;
+    font-size:clamp(18px,4.5vw,22px);
+    margin-bottom:20px;
+  }
+  .compare-list{list-style:none}
+  .compare-list li{
+    padding:12px 0 12px 28px;
+    border-top:1px solid currentColor;
+    border-color:rgba(0,0,0,.1);
+    font-size:13px;line-height:1.7;
+    position:relative;
+  }
+  .compare-card.ours .compare-list li{border-color:rgba(244,236,219,.15)}
+  .compare-list li::before{
+    position:absolute;left:0;top:14px;
+    font-family:var(--ff-display);font-size:14px;
+  }
+  .compare-card.fc .compare-list li::before{content:"×";color:#9c6a5a;font-weight:700}
+  .compare-card.ours .compare-list li::before{content:"○";color:var(--c-gold-soft);font-weight:500}
+  .compare-note{
+    margin-top:24px;font-size:12px;color:var(--c-ink-2);
+    background:var(--c-paper);padding:14px 18px;
+    border-left:2px solid var(--c-miso);
+    line-height:1.7;
+  }
+
+  /* ============ Menu Gallery ============ */
+  .menu{
+    padding:80px 0 90px;
+    background:var(--c-ink);
+    color:var(--c-cream);
+    position:relative;overflow:hidden;
+  }
+  .menu-head{
+    max-width:var(--maxw);margin:0 auto;
+    padding:0 var(--pad);
+  }
+  .menu .section-label{color:var(--c-gold-soft)}
+  .menu .section-label .num{color:var(--c-cream);border-color:var(--c-cream)}
+  .menu .section-title{color:var(--c-cream)}
+  .menu-vertical{
+    position:absolute;top:80px;right:14px;
+    writing-mode:vertical-rl;
+    font-family:var(--ff-mincho);
+    font-size:11px;letter-spacing:.5em;
+    color:var(--c-gold-soft);opacity:.5;
+  }
+  .menu-grid{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px;
+    padding:0 var(--pad);
+    max-width:var(--maxw);
+    margin-left:auto;margin-right:auto;
+  }
+  @media(min-width:720px){
+    .menu-grid{grid-template-columns:repeat(3,1fr);gap:14px}
+  }
+  .menu-item{
+    position:relative;aspect-ratio:1/1;overflow:hidden;
+    cursor:pointer;
+  }
+  .menu-item img{
+    width:100%;height:100%;object-fit:cover;
+    transition:transform .8s cubic-bezier(.4,0,.2,1), filter .5s;
+    filter:saturate(1.05) contrast(1.05);
+  }
+  .menu-item:hover img{transform:scale(1.08)}
+  .menu-item::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.6));
+    opacity:.7;transition:opacity .4s;
+  }
+  .menu-item:hover::after{opacity:1}
+  .menu-item-label{
+    position:absolute;left:14px;bottom:12px;z-index:2;
+    font-family:var(--ff-mincho);font-size:12px;letter-spacing:.2em;
+    color:var(--c-cream);
+  }
+  .menu-item-label::before{
+    content:"";display:block;width:18px;height:1px;
+    background:var(--c-gold-soft);margin-bottom:6px;
+  }
+
+  /* ============ Quality / Noodles Section ============ */
+  .quality{
+    padding:80px var(--pad);
+    background:var(--c-paper);
+    position:relative;
+  }
+  .quality-inner{max-width:var(--maxw);margin:0 auto}
+  .quality-grid{
+    display:grid;grid-template-columns:1fr;gap:32px;
+    align-items:center;margin-top:32px;
+  }
+  @media(min-width:840px){
+    .quality-grid{grid-template-columns:1.1fr 1fr;gap:60px}
+  }
+  .quality-img{
+    aspect-ratio:4/5;overflow:hidden;
+    position:relative;
+  }
+  .quality-img img{width:100%;height:100%;object-fit:cover}
+  .quality-img::before{
+    content:"";position:absolute;inset:0;
+    border:8px solid var(--c-paper);
+    pointer-events:none;z-index:2;
+  }
+  .quality-text{
+    font-family:var(--ff-mincho);
+    font-size:clamp(14px,3.8vw,16px);
+    line-height:2.1;
+    color:var(--c-ink-2);
+    letter-spacing:.06em;
+  }
+  .quality-text p+p{margin-top:18px}
+  .quality-headline{
+    font-family:var(--ff-mincho);font-weight:700;
+    font-size:clamp(22px,5.5vw,30px);
+    line-height:1.5;color:var(--c-ink);
+    margin-bottom:24px;
+  }
+
+  /* ============ Founder Section ============ */
+  .founder{
+    background:linear-gradient(180deg, var(--c-paper) 0%, var(--c-cream) 100%);
+    padding:80px var(--pad) 90px;
+    position:relative;
+    overflow:hidden;
+  }
+  .founder::before{
+    content:"想い";
+    position:absolute;
+    font-family:var(--ff-mincho);
+    font-size:clamp(180px,45vw,360px);
+    color:var(--c-miso);
+    opacity:.04;
+    top:-10%;right:-5%;
+    line-height:1;font-weight:800;
+    pointer-events:none;
+  }
+  .founder-inner{max-width:780px;margin:0 auto;position:relative;z-index:1}
+  .founder-quote-mark{
+    font-family:var(--ff-display);font-style:italic;
+    font-size:80px;line-height:.8;
+    color:var(--c-miso);opacity:.4;
+    margin-bottom:8px;
+  }
+  .founder-text{
+    font-family:var(--ff-mincho);
+    font-size:clamp(15px,4vw,17px);
+    line-height:2.2;
+    color:var(--c-ink-2);
+    letter-spacing:.08em;
+  }
+  .founder-text p+p{margin-top:18px}
+  .founder-text strong{
+    color:var(--c-miso);font-weight:700;
+    background:linear-gradient(transparent 70%, rgba(176,136,56,.3) 70%);
+  }
+  .founder-sign{
+    margin-top:36px;
+    padding-top:24px;
+    border-top:1px solid var(--c-rule);
+    font-family:var(--ff-mincho);
+    font-size:13px;letter-spacing:.2em;
+    color:var(--c-ink);
+  }
+  .founder-sign small{
+    display:block;font-size:10px;letter-spacing:.3em;
+    color:var(--c-ink-2);margin-bottom:4px;
+    font-family:var(--ff-display);font-style:italic;
+  }
+
+  /* ============ Flow Section ============ */
+  .flow{
+    background:var(--c-paper-2);
+    padding:80px var(--pad) 90px;
+  }
+  .flow-inner{max-width:var(--maxw);margin:0 auto}
+  .flow-steps{
+    display:grid;grid-template-columns:1fr;gap:14px;
+    margin-top:36px;position:relative;
+  }
+  @media(min-width:720px){
+    .flow-steps{grid-template-columns:repeat(3,1fr);gap:20px}
+  }
+  .flow-step{
+    background:var(--c-cream);
+    padding:28px 24px;
+    position:relative;
+    border:1px solid var(--c-rule);
+    transition:transform .4s ease;
+  }
+  .flow-step:hover{transform:translateY(-3px)}
+  .flow-num{
+    font-family:var(--ff-display);font-style:italic;font-weight:300;
+    font-size:48px;line-height:1;
+    color:var(--c-miso);margin-bottom:12px;
+    letter-spacing:-.02em;
+  }
+  .flow-num::after{
+    content:"";display:inline-block;width:30px;height:1px;
+    background:var(--c-miso);vertical-align:middle;
+    margin-left:10px;
+  }
+  .flow-title{
+    font-family:var(--ff-mincho);font-weight:700;
+    font-size:clamp(15px,4vw,17px);
+    color:var(--c-ink);margin-bottom:10px;
+    line-height:1.6;
+  }
+  .flow-desc{
+    font-size:12.5px;color:var(--c-ink-2);
+    line-height:1.8;letter-spacing:.04em;
+  }
+
+  /* ============ Final CTA / Form ============ */
+  .cta-final{
+    background:var(--c-ink);
+    color:var(--c-cream);
+    padding:90px var(--pad) 100px;
+    position:relative;overflow:hidden;
+  }
+  .cta-final::before{
+    content:"";position:absolute;
+    top:50%;left:50%;
+    width:120%;height:120%;
+    background:radial-gradient(ellipse at center, rgba(140,39,24,.2) 0%, transparent 60%);
+    transform:translate(-50%,-50%);
+    pointer-events:none;
+  }
+  .cta-final-inner{
+    max-width:680px;margin:0 auto;
+    position:relative;z-index:1;text-align:center;
+  }
+  .cta-eyebrow{
+    font-family:var(--ff-display);font-style:italic;
+    font-size:13px;letter-spacing:.4em;
+    color:var(--c-gold-soft);margin-bottom:18px;
+    display:flex;align-items:center;justify-content:center;gap:14px;
+  }
+  .cta-eyebrow::before,.cta-eyebrow::after{
+    content:"";width:24px;height:1px;background:var(--c-gold-soft);
+  }
+  .cta-headline{
+    font-family:var(--ff-mincho);font-weight:700;
+    font-size:clamp(28px,7vw,46px);
+    line-height:1.4;letter-spacing:.04em;
+    margin-bottom:20px;
+  }
+  .cta-headline .gold{color:var(--c-gold-soft)}
+  .cta-sub{
+    font-size:14px;line-height:1.9;
+    color:rgba(244,236,219,.8);
+    margin-bottom:36px;
+    max-width:480px;margin-left:auto;margin-right:auto;
+  }
+
+  .form-card{
+    background:var(--c-cream);
+    color:var(--c-ink);
+    padding:36px 24px;
+    margin-top:36px;
+    text-align:left;
+    border-top:3px solid var(--c-miso);
+  }
+  @media(min-width:640px){
+    .form-card{padding:44px 36px}
+  }
+  .form-card-title{
+    font-family:var(--ff-mincho);font-weight:700;
+    font-size:18px;
+    color:var(--c-ink);
+    margin-bottom:6px;
+    text-align:center;
+  }
+  .form-card-sub{
+    font-size:11px;letter-spacing:.2em;
+    color:var(--c-ink-2);text-align:center;
+    margin-bottom:28px;
+    font-family:var(--ff-display);font-style:italic;
+  }
+  .form-row{margin-bottom:18px}
+  .form-row label{
+    display:block;
+    font-size:12px;letter-spacing:.15em;font-weight:600;
+    color:var(--c-ink);margin-bottom:8px;
+  }
+  .form-row label .req{
+    color:var(--c-miso);font-size:10px;
+    margin-left:6px;letter-spacing:0;
+  }
+  .form-row input,
+  .form-row select,
+  .form-row textarea{
+    width:100%;padding:14px 16px;
+    background:var(--c-paper);
+    border:1px solid var(--c-rule);
+    font:inherit;font-size:14px;color:var(--c-ink);
+    border-radius:2px;
+    transition:border-color .3s, background .3s;
+    -webkit-appearance:none;appearance:none;
+  }
+  .form-row select{
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%231A140F' stroke-width='1.2' fill='none'/></svg>");
+    background-repeat:no-repeat;background-position:right 16px center;
+    padding-right:40px;
+  }
+  .form-row input:focus,
+  .form-row select:focus,
+  .form-row textarea:focus{
+    outline:none;border-color:var(--c-miso);
+    background:var(--c-cream);
+  }
+  .form-row textarea{resize:vertical;min-height:100px}
+  .form-submit{
+    width:100%;padding:20px;
+    background:var(--c-miso);color:var(--c-cream);
+    font:inherit;font-size:14px;font-weight:700;letter-spacing:.3em;
+    border:none;cursor:pointer;
+    transition:background .3s, transform .2s;
+    margin-top:8px;
+    border-radius:2px;
+  }
+  .form-submit:hover{background:var(--c-miso-deep)}
+  .form-submit:active{transform:scale(.98)}
+  .form-trust{
+    text-align:center;margin-top:18px;
+    font-size:11px;color:var(--c-ink-2);
+    line-height:1.7;letter-spacing:.05em;
+  }
+  .form-trust .lock{display:inline-block;margin-right:4px}
+
+  /* ============ Footer ============ */
+  footer{
+    background:var(--c-ink);
+    color:var(--c-cream);
+    padding:40px var(--pad) 100px;
+    border-top:1px solid rgba(244,236,219,.1);
+    text-align:center;
+  }
+  .footer-logo{
+    font-family:var(--ff-mincho);font-weight:700;
+    font-size:16px;letter-spacing:.2em;
+    margin-bottom:8px;
+  }
+  .footer-company{
+    font-size:11px;letter-spacing:.2em;
+    color:rgba(244,236,219,.7);
+    margin-bottom:24px;
+  }
+  .footer-copy{
+    font-family:var(--ff-display);font-style:italic;
+    font-size:10px;letter-spacing:.3em;
+    color:rgba(244,236,219,.4);
+  }
+
+  /* ============ Sticky Mobile CTA ============ */
+  .sticky-cta{
+    position:fixed;left:0;right:0;bottom:0;
+    z-index:60;
+    background:rgba(26,20,15,.95);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+    padding:10px 16px calc(10px + env(safe-area-inset-bottom));
+    border-top:1px solid rgba(244,236,219,.1);
+    display:flex;gap:10px;
+    transform:translateY(100%);
+    transition:transform .5s cubic-bezier(.4,0,.2,1);
+  }
+  .sticky-cta.show{transform:translateY(0)}
+  .sticky-cta-text{
+    flex:1;color:var(--c-cream);
+    display:flex;flex-direction:column;justify-content:center;
+    min-width:0;
+  }
+  .sticky-cta-text .small{
+    font-size:9px;letter-spacing:.3em;
+    color:var(--c-gold-soft);
+    font-family:var(--ff-display);font-style:italic;
+  }
+  .sticky-cta-text .big{
+    font-family:var(--ff-mincho);font-weight:700;
+    font-size:13px;letter-spacing:.1em;
+    line-height:1.3;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  }
+  .sticky-cta-btn{
+    display:inline-flex;align-items:center;gap:6px;
+    background:var(--c-miso);color:var(--c-cream);
+    padding:14px 18px;
+    font-size:12px;letter-spacing:.2em;font-weight:700;
+    white-space:nowrap;
+    transition:background .3s;
+    border-radius:2px;
+  }
+  .sticky-cta-btn:active{background:var(--c-miso-deep)}
+
+  /* ============ Animations ============ */
+  .reveal{
+    opacity:0;transform:translateY(24px);
+    transition:opacity 1s ease, transform 1s cubic-bezier(.4,0,.2,1);
+  }
+  .reveal.visible{opacity:1;transform:translateY(0)}
+  .reveal-d1{transition-delay:.1s}
+  .reveal-d2{transition-delay:.2s}
+  .reveal-d3{transition-delay:.3s}
+
+  @media(prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation:none!important;transition:none!important}
+    .reveal{opacity:1;transform:none}
+  }
+
+  /* ============ Hide on Desktop sticky ============ */
+  @media(min-width:900px){
+    .sticky-cta{display:none}
+    footer{padding-bottom:40px}
+  }
+</style>
+</head>
+<body>
+
+<!-- Top Banner -->
+<div class="top-banner">
+  <span class="pulse"></span>
+  <span>NOW RECRUITING ・ 加盟店募集中</span>
+</div>
+
+<!-- Header -->
+<header>
+  <nav class="nav">
+    <div class="logo">
+      花木流味噌
+      <span class="sub">HANAKI MISO</span>
+    </div>
+    <a href="#form" class="nav-cta">資料請求 <span>→</span></a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-vertical">屋号自由 ・ 自立した経営を、最小の負担で。</div>
+  <div class="hero-en">PARTNERSHIP PROGRAM ・ EST.RAPPORT</div>
+
+  <div class="hero-inner">
+    <div class="hero-eyebrow reveal">A NEW BEGINNING</div>
+    <h1 class="hero-headline reveal reveal-d1">
+      味噌で、<br>
+      <span class="accent">独立する。</span>
+    </h1>
+    <div class="hero-zero reveal reveal-d2">¥0 / ¥0</div>
+    <p class="hero-sub reveal reveal-d3">
+      加盟金 0円・ロイヤリティー 0円。<br>
+      屋号も運営方針も、あなたの自由。<br>
+      花木流味噌が支えるのは、<strong style="color:var(--c-miso);font-weight:700">仕入れと運営の核となる仕組み</strong>だけ。<br>
+      自立した経営を望む方のための、新しいパッケージ。
+    </p>
+
+    <a href="#form" class="btn-primary reveal reveal-d3">
+      <span>無料で資料を受け取る</span>
+      <span class="arrow">→</span>
+    </a>
+
+    <div class="hero-image reveal reveal-d3">
+      <img src="https://cdn.peraichi.com/userData/61dbeb2e-228c-40bd-8c40-0afd0a000a2a/img/975ab350-e394-4bd2-91e6-71e9325bc3f5/______top_01_______.png" alt="花木流味噌" loading="eager">
+      <div class="hero-tag">
+        <span class="stamp">SINCE</span>
+        職人の温度を、麺一本に。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Strip -->
+<section class="stats">
+  <div class="stats-inner">
+    <div class="stat reveal">
+      <div class="stat-num">0<span class="yen">円</span></div>
+      <div class="stat-label">加盟金</div>
+      <div class="stat-en">FRANCHISE FEE</div>
+    </div>
+    <div class="stat reveal reveal-d1">
+      <div class="stat-num">0<span class="yen">円</span></div>
+      <div class="stat-label">ロイヤリティー</div>
+      <div class="stat-en">ROYALTY</div>
+    </div>
+    <div class="stat reveal reveal-d2">
+      <div class="stat-num">自由</div>
+      <div class="stat-label">屋号・運営</div>
+      <div class="stat-en">YOUR OWN BRAND</div>
+    </div>
+  </div>
+</section>
+
+<!-- Concept -->
+<section class="concept">
+  <div class="section">
+    <div class="section-label reveal">
+      <span class="num">01</span>
+      <span>CONCEPT</span>
+    </div>
+    <h2 class="section-title reveal reveal-d1">
+      自立した経営を望む方への、<br>
+      <span class="mark">新しい選択肢。</span>
+    </h2>
+    <p class="concept-text reveal reveal-d2">
+      特定の看板を使用できる代わりに様々な決まりや制約のあるフランチャイズパッケージとは異なり、<strong>屋号を自由に決められ、ブランドの運営方針等もご自身の好きに決められる</strong>一方で、仕入れや運営のベースとなるシステムのみを少ない負担で導入できるため、自立した経営を望まれる開業者様に最適なパッケージです。
+    </p>
+  </div>
+</section>
+
+<!-- Benefits -->
+<section class="benefits">
+  <div class="benefits-inner">
+    <div class="section-label reveal">
+      <span class="num">02</span>
+      <span>WHY US</span>
+    </div>
+    <h2 class="section-title reveal reveal-d1">
+      選ばれる、<br>
+      <span class="mark">3つの理由。</span>
+    </h2>
+
+    <div class="benefits-grid">
+      <article class="benefit-card reveal">
+        <div class="benefit-num">01 / FEE</div>
+        <h3 class="benefit-headline">
+          <span class="big">¥0</span>
+          加盟金
+        </h3>
+        <p class="benefit-desc">
+          初期費用の大きな壁となる加盟金が、完全にゼロ。資金を本当に必要な店舗運営や仕込みに集中して投下できます。
+        </p>
+      </article>
+
+      <article class="benefit-card reveal reveal-d1">
+        <div class="benefit-num">02 / ROYALTY</div>
+        <h3 class="benefit-headline">
+          <span class="big">¥0</span>
+          ロイヤリティー
+        </h3>
+        <p class="benefit-desc">
+          売上に応じた毎月の支払いも、ゼロ。利益はすべてあなたのものに。経営の自由度と利益率が大きく変わります。
+        </p>
+      </article>
+
+      <article class="benefit-card reveal reveal-d2">
+        <div class="benefit-num">03 / FREEDOM</div>
+        <h3 class="benefit-headline">
+          <span class="big">自由</span>
+          屋号・運営
+        </h3>
+        <p class="benefit-desc">
+          看板も、内装も、運営方針も、あなたが決める。仕入れと運営の核となる仕組みだけを、少ない負担で導入できます。
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Comparison -->
+<section class="compare">
+  <div class="compare-inner">
+    <div class="section-label reveal">
+      <span class="num">03</span>
+      <span>COMPARISON</span>
+    </div>
+    <h2 class="section-title reveal reveal-d1">
+      フランチャイズと、<br>
+      <span class="mark">何が違うのか。</span>
+    </h2>
+
+    <div class="compare-grid">
+      <div class="compare-card fc reveal">
+        <div class="compare-label">— 一般的なFCの場合</div>
+        <div class="compare-name">フランチャイズ契約</div>
+        <ul class="compare-list">
+          <li>高額な加盟金が必要</li>
+          <li>毎月のロイヤリティー支払い</li>
+          <li>屋号は本部指定で固定</li>
+          <li>運営方針は本部の方針に従う</li>
+          <li>メニューや内装に厳しい制約</li>
+        </ul>
+      </div>
+      <div class="compare-card ours reveal reveal-d1">
+        <div class="compare-label">— 花木流味噌パッケージ</div>
+        <div class="compare-name">屋号自由パッケージ</div>
+        <ul class="compare-list">
+          <li>加盟金 ¥0</li>
+          <li>ロイヤリティー ¥0</li>
+          <li>屋号は自由に決定可能</li>
+          <li>運営方針はあなた次第</li>
+          <li>システム使用料のみのご負担</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="compare-note reveal reveal-d2">
+      ※一都三県をご希望の方は、屋号自由・加盟金等0円(システム使用料のみ)のパッケージのみ選択いただけます。詳しくはお問い合わせください。
+    </div>
+  </div>
+</section>
+
+<!-- Menu Gallery -->
+<section class="menu">
+  <div class="menu-vertical">花木流味噌 ・ 至高の一杯</div>
+  <div class="menu-head">
+    <div class="section-label reveal">
+      <span class="num">04</span>
+      <span>OUR MENU</span>
+    </div>
+    <h2 class="section-title reveal reveal-d1">
+      花木流味噌が誇る、<br>
+      <span style="color:var(--c-gold-soft)">至高のメニュー</span>
+    </h2>
+  </div>
+  <div class="menu-grid">
+    <div class="menu-item reveal">
+      <img src="https://cdn.peraichi.com/userData/61dbeb2e-228c-40bd-8c40-0afd0a000a2a/img/ecd2f067-8493-47f7-8d05-46973e7155de/2026_04_07_08_35_17_874_269275.png" alt="花木流味噌 メニュー" loading="lazy">
+      <div class="menu-item-label">SIGNATURE</div>
+    </div>
+    <div class="menu-item reveal reveal-d1">
+      <img src="https://cdn.peraichi.com/userData/61dbeb2e-228c-40bd-8c40-0afd0a000a2a/img/aef88766-94c3-4339-8dcf-1de8fd4fd166/2026_04_07_08_36_12_368_232088.png" alt="花木流味噌 メニュー" loading="lazy">
+      <div class="menu-item-label">SPECIAL</div>
+    </div>
+    <div class="menu-item reveal reveal-d2">
+      <img src="https://cdn.peraichi.com/userData/61dbeb2e-228c-40bd-8c40-0afd0a000a2a/img/2dfb154f-32ce-41c6-91e0-c66bc760541a/2026_04_07_08_37_51_785_825053.png" alt="花木流味噌 メニュー" loading="lazy">
+      <div class="menu-item-label">RICH</div>
+    </div>
+    <div class="menu-item reveal">
+      <img src="https://cdn.peraichi.com/userData/61dbeb2e-228c-40bd-8c40-0afd0a000a2a/img/1c31a9b9-5468-490e-be80-7ded6be99e22/2026_04_07_08_37_17_406_869258.png" alt="花木流味噌 メニュー" loading="lazy">
+      <div class="menu-item-label">CLASSIC</div>
+    </div>
+    <div class="menu-item reveal reveal-d1">
+      <img src="https://cdn.peraichi.com/userData/61dbeb2e-228c-40bd-8c40-0afd0a000a2a/img/52c16b8a-ff56-4216-9dce-8cb445fe1541/2026_04_07_08_39_01_021_605854.png" alt="花木流味噌 メニュー" loading="lazy">
+      <div class="menu-item-label">PREMIUM</div>
+    </div>
+    <div class="menu-item reveal reveal-d2">
+      <img src="https://cdn.peraichi.com/userData/61dbeb2e-228c-40bd-8c40-0afd0a000a2a/img/179209ef-d00a-4fef-a7e8-f50c87243c1b/2026_04_07_08_38_12_636_963682.png" alt="花木流味噌 メニュー" loading="lazy">
+      <div class="menu-item-label">LIMITED</div>
+    </div>
+  </div>
+</section>
+
+<!-- Quality / Noodles -->
+<section class="quality">
+  <div class="quality-inner">
+    <div class="section-label reveal">
+      <span class="num">05</span>
+      <span>OUR CRAFT</span>
+    </div>
+    <div class="quality-grid">
+      <div class="quality-img reveal">
+        <img src="https://cdn.peraichi.com/userData/61dbeb2e-228c-40bd-8c40-0afd0a000a2a/img/ab7af51f-c0bd-4815-bcc0-08184c034f9e/________.png" alt="職人の麺づくり" loading="lazy">
+      </div>
+      <div class="reveal reveal-d1">
+        <h2 class="quality-headline">
+          職人の温度を、<br>
+          一本の麺に宿す。
+        </h2>
+        <div class="quality-text">
+          <p>シンプルな味わいを引き立てる素材力。添加物を最小限に抑え、素材そのものの味、甘みと風味を生かした製法。</p>
+          <p>手作業での温度感が生む奥行きと、各工程を丁寧に行い、麺一つひとつに職人の温度を宿す、想いのこもった麺です。</p>
+          <p>味噌用の麺はもっちりとしたコシと滑らかな喉ごし。厳選された小麦粉と水の比率を徹底的に突き詰め、コシと弾力を両立した力強い麺です。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Founder Message -->
+<section class="founder">
+  <div class="founder-inner">
+    <div class="section-label reveal">
+      <span class="num">06</span>
+      <span>OUR STORY</span>
+    </div>
+    <h2 class="section-title reveal reveal-d1">
+      このパッケージに込めた、<br>
+      <span class="mark">私たちの想い。</span>
+    </h2>
+    <div class="founder-quote-mark reveal reveal-d1">"</div>
+    <div class="founder-text reveal reveal-d2">
+      <p>私事ですが、私自身障がいのある子供がおり、<strong>障がい者が働ける場所を作りたい</strong>という思いを持っております。</p>
+      <p>誰にとっても安心安全の場所、1人でも自立できる場所を作ることで、自立した経営を望まれる事業者様、仕入れ元となる弊社、そこで働く人材、それぞれが自立し協力しあえるような社会づくりの一端を担えればという想いを形にしたものが、この<strong>加盟金0円・ロイヤリティー0円パッケージ</strong>となります。</p>
+    </div>
+    <div class="founder-sign reveal reveal-d3">
+      <small>FOUNDER</small>
+      株式会社ラポール 代表
+    </div>
+  </div>
+</section>
+
+<!-- Application Flow -->
+<section class="flow">
+  <div class="flow-inner">
+    <div class="section-label reveal">
+      <span class="num">07</span>
+      <span>HOW IT WORKS</span>
+    </div>
+    <h2 class="section-title reveal reveal-d1">
+      お申し込みは、<br>
+      <span class="mark">わずか3ステップ。</span>
+    </h2>
+
+    <div class="flow-steps">
+      <div class="flow-step reveal">
+        <div class="flow-num">01</div>
+        <h3 class="flow-title">フォームにご入力</h3>
+        <p class="flow-desc">下記のフォームに必要事項をご記入ください。所要時間はわずか1分。費用は一切かかりません。</p>
+      </div>
+      <div class="flow-step reveal reveal-d1">
+        <div class="flow-num">02</div>
+        <h3 class="flow-title">面談日程の調整</h3>
+        <p class="flow-desc">窓口担当より面談の日程調整のご連絡を差し上げます。オンライン面談も可能です。</p>
+      </div>
+      <div class="flow-step reveal reveal-d2">
+        <div class="flow-num">03</div>
+        <h3 class="flow-title">面談・ご契約</h3>
+        <p class="flow-desc">面談にて不安や疑問点をすべて解消いただき、ご納得の上でご契約となります。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Final CTA + Form -->
+<section class="cta-final" id="form">
+  <div class="cta-final-inner">
+    <div class="cta-eyebrow reveal">START YOUR JOURNEY</div>
+    <h2 class="cta-headline reveal reveal-d1">
+      味噌で、<br>
+      <span class="gold">人生を変える。</span>
+    </h2>
+    <p class="cta-sub reveal reveal-d2">
+      まずは無料の資料請求から。<br>
+      ご入力後、担当者より3営業日以内にご連絡いたします。
+    </p>
+
+    <form class="form-card reveal reveal-d2" onsubmit="handleSubmit(event)">
+      <h3 class="form-card-title">無料・資料請求フォーム</h3>
+      <p class="form-card-sub">— FREE INQUIRY —</p>
+
+      <div class="form-row">
+        <label>お名前 <span class="req">必須</span></label>
+        <input type="text" name="name" required placeholder="山田 太郎">
+      </div>
+      <div class="form-row">
+        <label>メールアドレス <span class="req">必須</span></label>
+        <input type="email" name="email" required placeholder="example@email.com">
+      </div>
+      <div class="form-row">
+        <label>電話番号 <span class="req">必須</span></label>
+        <input type="tel" name="tel" required placeholder="090-0000-0000">
+      </div>
+      <div class="form-row">
+        <label>ご検討エリア</label>
+        <select name="area">
+          <option value="">選択してください</option>
+          <option>一都三県(東京・神奈川・埼玉・千葉)</option>
+          <option>関東(その他)</option>
+          <option>関西</option>
+          <option>東海</option>
+          <option>九州</option>
+          <option>その他</option>
+          <option>未定</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label>ご質問・ご相談など</label>
+        <textarea name="message" placeholder="ご自由にご記入ください"></textarea>
+      </div>
+
+      <button type="submit" class="form-submit">
+        無料で資料を請求する →
+      </button>
+      <div class="form-trust">
+        <span class="lock">🔒</span>入力内容はSSL暗号化通信で保護されます<br>
+        ※しつこい営業の電話などは一切いたしません
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-logo">花木流味噌</div>
+  <div class="footer-company">株式会社ラポール ・ RAPPORT INC.</div>
+  <div class="footer-copy">© HANAKI MISO ・ ALL RIGHTS RESERVED</div>
+</footer>
+
+<!-- Sticky Mobile CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <div class="sticky-cta-text">
+    <span class="small">FREE INQUIRY</span>
+    <span class="big">加盟金0円・ロイヤリティー0円</span>
+  </div>
+  <a href="#form" class="sticky-cta-btn">資料請求 →</a>
+</div>
+
+<script>
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if(e.isIntersecting){
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, {threshold:.12, rootMargin:"0px 0px -50px 0px"});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Sticky CTA show/hide
+  const sticky = document.getElementById('stickyCta');
+  const heroEnd = document.querySelector('.hero');
+  let lastY = 0;
+  const onScroll = () => {
+    const y = window.scrollY;
+    const trigger = heroEnd.offsetHeight * .7;
+    const formEl = document.getElementById('form');
+    const formTop = formEl.getBoundingClientRect().top + window.scrollY;
+    const formInView = y + window.innerHeight > formTop - 200;
+    if(y > trigger && !formInView){
+      sticky.classList.add('show');
+    } else {
+      sticky.classList.remove('show');
+    }
+    lastY = y;
+  };
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  // Form handler (placeholder - connect to your backend)
+  function handleSubmit(e){
+    e.preventDefault();
+    alert('お問い合わせありがとうございます。\n担当者より3営業日以内にご連絡いたします。\n\n※このフォームはデモです。本番運用時はバックエンドへの接続が必要です。');
+  }
+</script>
+
+</body>
+</html>
